@@ -3963,18 +3963,18 @@ body {
   color: #fff;
 }
 .links {
-  text-align: center;
   font-size: 48px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #1a222c;
 }
 .links div {
   margin: 10px;
-  flex: 1 1 1 0;
-  justify-content: center;
+  flex: 0;
+  flex-basis: 0;
+  text-align: center;
 }
 .links div a {
   color: #fff;
