@@ -3973,7 +3973,8 @@ body {
 }
 .links div {
   margin: 10px;
-  flex: 1 1 0;
+  flex: auto;
+  justify-content: center;
 }
 .links div a {
   color: #fff;
