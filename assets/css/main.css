@@ -177,12 +177,12 @@ sup {
   text-align: center;
 }
 .header-icons .icon {
-  height: 20px;
+  height: 40px;
   padding: 10px;
   border-radius: 50%;
   transition: all 0.5s;
-  width: 20px;
-  font-size: 20px;
+  width: 40px;
+  font-size: 40px;
   margin: 5px;
   border: 2px solid #fff;
 }
