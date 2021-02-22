@@ -246,7 +246,7 @@ sup {
 
 #about img,
 #about svg {
-  width: 75px !important;
+  width: 60px !important;
   height: auto;
 }
 
@@ -271,10 +271,15 @@ body {
 .user p {
   font-size: 16px;
 }
+
 @media only screen and (min-width: 768px) {
   .user {
     flex-wrap: nowrap;
     font-size: 75px;
+  }
+  #about img {
+    width: 75px !important;
+    height: auto;
   }
 }
 .user-details {
